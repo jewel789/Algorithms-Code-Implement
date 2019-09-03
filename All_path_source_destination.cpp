@@ -19,7 +19,7 @@ void findpath(int current){//dfs
 
     if(current==destination){
       for(int i=0;i<path.size();i++)
-            cout<<path[i]<<" ";
+            cout<<path[i]<<" ";//path printing 
        cout<<current<<endl;
 
       path_count++;
